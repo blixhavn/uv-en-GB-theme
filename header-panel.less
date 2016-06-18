@@ -1,6 +1,13 @@
 @theme-img-path: '../../../themes/@{theme}/img/';
 
 #app{
+    &.embedded {
+        .headerPanel {
+            background-image: url('@{img-path}uv-logo.png');
+            background-repeat: no-repeat;
+            background-position: 8px 3px;
+        }
+    }
     .headerPanel{
         .options{
             .centerOptions{
@@ -8,7 +15,7 @@
             }
             .rightOptions{
                 .settings{
-                    background: url('@{theme-img-path}hamburger.png');
+                   //background: url('@{theme-img-path}hamburger.png');
                 }
             }
         }
